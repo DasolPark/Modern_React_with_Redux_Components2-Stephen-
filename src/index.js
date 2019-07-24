@@ -8,17 +8,17 @@ const App = () => {
       <CommentDetail
         author="Sam"
         timeAgo="Today at 4:45PM"
-        text="Nice blog post!"
+        content="Nice blog post!"
       />
       <CommentDetail
         author="Judy"
         timeAgo="Today at 2:00PM"
-        text="Every day happy!"
+        content="Every day happy!"
       />
       <CommentDetail
         author="David"
         timeAgo="Yesterday at 7:00AM"
-        text="Always good!"
+        content="Always good!"
       />
     </div>
   );
