@@ -7,22 +7,35 @@ const App = () => {
   return (
     <div className="ui container comments">
       <ApprovalCard>
+        <div>
+          <h4>Warning!</h4>
+          Are you sure want to do this?
+        </div>
+      </ApprovalCard>
+
+      <ApprovalCard>
         <CommentDetail
           author="Sam"
           timeAgo="Today at 4:45PM"
           content="Nice blog post!"
         />
       </ApprovalCard>
-      <CommentDetail
-        author="Judy"
-        timeAgo="Today at 2:00PM"
-        content="Every day happy!"
-      />
-      <CommentDetail
-        author="David"
-        timeAgo="Yesterday at 7:00AM"
-        content="Always good!"
-      />
+
+      <ApprovalCard>
+        <CommentDetail
+          author="Judy"
+          timeAgo="Today at 2:00PM"
+          content="Every day happy!"
+        />
+      </ApprovalCard>
+
+      <ApprovalCard>
+        <CommentDetail
+          author="David"
+          timeAgo="Yesterday at 7:00AM"
+          content="Always good!"
+        />
+      </ApprovalCard>
     </div>
   );
 };
